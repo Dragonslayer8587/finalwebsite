@@ -418,12 +418,12 @@
   }
 
   .wireframe .frame-8 {
-    position: absolute;
+    position: relative;
     width: 498px;
     height: 738px;
     top: 0;
     left: 762px;
-    background-image: url(./img/cgna750n1tf21-1.png);
+    background-image: url(.cgna750n1tf21-1.png);
     background-size: cover;
     background-position: 50% 50%;
   }

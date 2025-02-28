@@ -599,30 +599,10 @@
     background-color: transparent;
     text-decoration: underline;
   }
-  .image {
-    width: 482px;
-    height: 656px;
-  }
-  
-  .image .cross {
-    position: fixed;
-    width: 482px;
-    height: 656px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  .image {
-    width: 425px;
-    height: 398px;
-  }
-  
-  .image .awievqvik {
-    position: fixed;
-    width: 425px;
-    height: 398px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  
+.wireframe .cross{
+  position:absolute;
+  width: 912;
+  height: 699;
+  top: 0;
+  left: 528;
+}

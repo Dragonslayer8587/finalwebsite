@@ -1,565 +1,105 @@
-.wireframe {
-    background-color: rgba(255, 255, 255, 1.0);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .wireframe .div {
-    background-color: rgba(255, 255, 255, 1.0);
-    overflow: hidden;
-    background: linear-gradient(
-      180deg,
-      rgb(199.75, 199.75, 199.75) 22.83%,
-      rgb(0, 0, 0) 51.45%
-    );
-    width: 1440px;
-    height: 3168px;
-    position: relative;
-  }
-
-  .wireframe .overlap {
-    height: 1198px;
-    top: 0;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-
-  .wireframe .overlap-group {
-    height: 1061px;
-    top: 0;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-
-  .wireframe .overlap-group-2 {
-    height: 924px;
-    top: 0;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-
-  .wireframe .rectangle {
-    position: absolute;
-    width: 1440px;
-    height: 620px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-
-  .wireframe .group {
-    position: absolute;
-    width: 435px;
-    height: 334px;
-    top: 105px;
-    left: 160px;
-  }
-
-  .wireframe .have-you-seen-my {
-    position: absolute;
-    width: 433px;
-    top: 0;
-    left: 0;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 70px;
-    letter-spacing: 0;
-    line-height: 90px;
-  }
-
-  .wireframe .text-wrapper {
-    color: #ffffff;
-  }
-
-  .wireframe .span {
-    color: #ff0000;
-  }
-
-  .wireframe .img {
-    position: absolute;
-    width: 912px;
-    height: 699px;
-    top: 0;
-    left: 528px;
-  }
-
-  .wireframe .my-dumb-wife {
-    position: absolute;
-    top: 379px;
-    left: 580px;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 36px;
-    letter-spacing: 0;
-    line-height: 90px;
-    white-space: nowrap;
-  }
-
-  .wireframe .rectangle-2 {
-    position: absolute;
-    width: 574px;
-    height: 274px;
-    top: 650px;
-    left: 160px;
-    object-fit: cover;
-  }
-
-  .wireframe .arrow {
-    position: absolute;
-    width: 145px;
-    height: 120px;
-    top: 264px;
-    left: 760px;
-  }
-
-  .wireframe .rectangle-3 {
-    position: absolute;
-    width: 900px;
-    height: 96px;
-    top: 0;
-    left: 540px;
-  }
-
-  .wireframe .frame {
-    display: flex;
-    width: 883px;
-    align-items: center;
-    gap: 24px;
-    position: absolute;
-    top: 6px;
-    left: 548px;
-  }
-
-  .wireframe .text-wrapper-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 90px;
-    white-space: nowrap;
-  }
-
-  .wireframe .frogs-wrapper {
-    display: flex;
-    width: 142px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    background-color: #982a2a;
-  }
-
-  .wireframe .frogs {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 50px;
-    white-space: nowrap;
-  }
-
-  .wireframe .frame-2 {
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    top: 23px;
-    left: 157px;
-  }
-
-  .wireframe .poison-icon-h {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-  }
-
-  .wireframe .frame-wrapper {
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    flex: 0 0 auto;
-    margin-left: -5px;
-  }
-
-  .wireframe .green-hell-wrapper {
-    display: inline-flex;
-    height: 33px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .wireframe .green-hell {
-    position: relative;
-    width: fit-content;
-    margin-top: -39.50px;
-    margin-bottom: -37.50px;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 90px;
-    white-space: nowrap;
-  }
-
-  .wireframe .wanted-wife-last-wrapper {
-    position: absolute;
-    width: 465px;
-    height: 334px;
-    top: 727px;
-    left: 817px;
-  }
-
-  .wireframe .wanted-wife-last {
-    position: absolute;
-    width: 463px;
-    top: 0;
-    left: 0;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: 48px;
-  }
-
-  .wireframe .text-wrapper-3 {
-    color: #000000;
-    line-height: 90px;
-  }
-
-  .wireframe .text-wrapper-4 {
-    color: #e43838;
-    line-height: 90px;
-  }
-
-  .wireframe .text-wrapper-5 {
-    color: #000000;
-    font-size: 32px;
-    line-height: 50px;
-  }
-
-  .wireframe .rectangle-4 {
-    position: absolute;
-    width: 574px;
-    height: 274px;
-    top: 924px;
-    left: 160px;
-    object-fit: cover;
-  }
-
-  .wireframe .thanks-for-findi-n-g-wrapper {
-    position: absolute;
-    width: 1169px;
-    height: 90px;
-    top: 1323px;
-    left: 222px;
-  }
-
-  .wireframe .thanks-for-findi-n-g {
-    position: absolute;
-    width: 1167px;
-    top: 0;
-    left: 0;
-    background: linear-gradient(
-      180deg,
-      rgb(0, 0, 0) 36.52%,
-      rgb(213.56, 0, 0) 100%
-    );
-    -webkit-background-clip: text !important;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 64px;
-    letter-spacing: 0;
-    line-height: 90px;
-    white-space: nowrap;
-  }
-
-  .wireframe .overlap-2 {
-    height: 1772px;
-    top: 1576px;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-
-  .wireframe .overlap-3 {
-    height: 1425px;
-    top: 347px;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-
-  .wireframe .overlap-4 {
-    height: 1303px;
-    top: 122px;
-    position: absolute;
-    width: 1440px;
-    left: 0;
-  }
-
-  .wireframe .rectangle-5 {
-    position: absolute;
-    width: 1440px;
-    height: 427px;
-    top: 876px;
-    left: 0;
-    background-color: #030b03;
-  }
-
-  .wireframe .submit-photo {
-    position: absolute;
-    width: 349px;
-    top: 915px;
-    left: 160px;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 36px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-
-  .wireframe .text-wrapper-6 {
-    color: #f04242;
-  }
-
-  .wireframe .frame-3 {
-    display: inline-flex;
-    align-items: center;
-    position: absolute;
-    top: 925px;
-    left: 1185px;
-  }
-
-  .wireframe .frame-4 {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .wireframe .img-2 {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-  }
-
-  .wireframe .frame-5 {
-    display: flex;
-    width: 1120px;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    top: 1030px;
-    left: 160px;
-  }
-
-  .wireframe .frame-6 {
-    display: inline-flex;
-    align-items: center;
-    gap: 2px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .wireframe .inspection-icon-v {
-    position: relative;
-    width: 12px;
-    height: 12px;
-    object-fit: cover;
-  }
-
-  .wireframe .text-wrapper-7 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 50px;
-    white-space: nowrap;
-  }
-
-  .wireframe .frame-7 {
-    display: inline-flex;
-    align-items: center;
-    gap: 29px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-
-  .wireframe .frame-8 {
-    position: absolute;
-    width: 498px;
-    height: 738px;
-    top: 0;
-    left: 762px;
-    background-image: url(./img/cgna750n1tf21-1.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  .wireframe .help-me-help-me-help {
-    position: absolute;
-    width: 480px;
-    top: 487px;
-    left: 775px;
-    background: linear-gradient(
-      180deg,
-      rgb(107, 103, 100) 0%,
-      rgb(116.88, 25.32, 25.32) 100%
-    );
-    -webkit-background-clip: text !important;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 22px;
-    letter-spacing: 0;
-    line-height: 40px;
-  }
-
-  .wireframe .she-s-gone-shes-gone-wrapper {
-    position: absolute;
-    width: 547px;
-    height: 719px;
-    top: 0;
-    left: 160px;
-    overflow: hidden;
-    background-image: url(./img/IMG-1165-1.png);
-    background-size: 100% 100%;
-  }
-
-  .wireframe .she-s-gone-shes-gone {
-    position: absolute;
-    width: 547px;
-    top: 359px;
-    left: 8px;
-    background: linear-gradient(
-      180deg,
-      rgb(0, 0, 0) 0%,
-      rgb(116.88, 25.32, 25.32) 100%
-    );
-    -webkit-background-clip: text !important;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 40px;
-  }
-
-  .wireframe .help-me-help-me-help-wrapper {
-    position: absolute;
-    width: 550px;
-    height: 444px;
-    top: 0;
-    left: 730px;
-    overflow: hidden;
-    background-image: url(./img/awievqv2ik701-1.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  .wireframe .p {
-    position: absolute;
-    width: 523px;
-    top: 183px;
-    left: 19px;
-    background: linear-gradient(
-      180deg,
-      rgb(107, 103, 100) 0%,
-      rgb(116.88, 25.32, 25.32) 100%
-    );
-    -webkit-background-clip: text !important;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: transparent;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 40px;
-  }
-
-  .wireframe .more-photos-wrapper {
-    display: flex;
-    width: 215px;
-    height: 65px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: absolute;
-    top: 1182px;
-    left: 806px;
-    background-color: #982a2a;
-  }
-
-  .wireframe .more-photos {
-    position: relative;
-    width: fit-content;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 50px;
-    white-space: nowrap;
-  }
-
-  .wireframe .h-e-s-h-e-r-e-wrapper {
-    position: absolute;
-    width: 474px;
-    height: 326px;
-    top: 1472px;
-    left: 181px;
-    overflow: hidden;
-  }
-
-  .wireframe .h-e-s-h-e-r-e {
-    position: absolute;
-    top: 138px;
-    left: 22px;
-    font-family: "Lacquer-Regular", Helvetica;
-    font-weight: 400;
-    color: #550d0d;
-    font-size: 96px;
-    letter-spacing: 0;
-    line-height: 40px;
-    white-space: nowrap;
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wireframe">
+      <div class="div">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="overlap-group-2">
+              <img class="rectangle" src="img/rectangle-1.png" />
+              <div class="group">
+                <p class="have-you-seen-my">
+                  <span class="text-wrapper">Have you seen my </span> <span class="span">wife?</span>
+                </p>
+              </div>
+              <img class="img" src="img/group-3.png" />
+              <div class="my-dumb-wife">my dumb wife</div>
+              <img class="rectangle-2" src="img/rectangle-3.png" />
+              <img class="arrow" src="img/arrow-1.svg" />
+              <img class="rectangle-3" src="img/rectangle-5.svg" />
+              <div class="frame">
+                <div class="text-wrapper-2">KNOWN LOCATIONS</div>
+                <div class="text-wrapper-2"><a href="https://hallmarkchannelwines.com/?srsltid=AfmBOor-DelmnYfNK0y8YlP9xffyzKsDyDzzOQW08KzHdF02Xq4Y-06r">COMMEMORATIVE WINES</a></div>
+                <div class="text-wrapper-2">WHY SHE LEFT</div>
+                <div class="frogs-wrapper"><div class="frogs">FROGS</div></div>
+              </div>
+              <div class="frame-2">
+                <img class="poison-icon-h" src="img/poison-icon-h-1.png" />
+                <div class="frame-wrapper">
+                  <div class="green-hell-wrapper">
+                    <p class="green-hell"><span class="text-wrapper"><a href="https://greenhell.fandom.com/wiki/Green_Hell_Wiki">Green </span> <span class="span">Hell</span></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wanted-wife-last-wrapper">
+              <p class="wanted-wife-last">
+                <span class="text-wrapper-3">Wanted: </span>
+                <span class="text-wrapper-4">Wife<br /></span>
+                <span class="text-wrapper-5"
+                  >Last Seen in Coma. Reward of one poison dart frog will be granted upon photo evidence of wife. wife
+                  can be kept by finder. please do not tell her i drank Ayahuasca. Do not offer wine.</span
+                >
+              </p>
+            </div>
+          </div>
+          <img class="rectangle-4" src="img/rectangle-4.png" />
+        </div>
+        <div class="thanks-for-findi-n-g-wrapper"><p class="thanks-for-findi-n-g">THANKS FOR FINDÏ̸̢̖̳͖̞̻̞͜N̵̨͕̜̙̮̙̰͑̉́͗̃͝G̶̛̪̯̺͙̭̐̍̐̉ ̵͙̣̉̀͒̌̃̀̍̂M̵̜̿Y̴̼͖̮͍͖͎̦̽̊͌͊͆̄̎͑͒̐͝͠Ι̬̮ ̵̨̨̹̖͍̙̲̠͚̤̭͚̈́̈̽̓̾͛̇̍̂W̵̧̛̼̩͍͖̘̰̪̃̅̋̈́̓͒̈́̅͑́́̇̑͘͜Ι̪Ȋ̴͇͉͚̮͚̠̹̗͇̐̈̾F̶̟̪͔̙̫̥̬̳͚̠̱̭̺͚̥́͑̂͌͋̈́E̷̸̡̢͍̤̻̯̻̘̰̹̙̖̳̞̻̼͍̠͆̍̽̏̇̓̄͌̈͒͐̀̀̈́́̒̀͂́̀̽̊̏̌̐̌̍̐̈́̂̏̉̋̋̅͒͗͂̃͌̾̍͘͘͠͠</p></div>
+        <div class="overlap-2">
+          <div class="overlap-3">
+            <div class="overlap-4">
+              <div class="rectangle-5"></div>
+              <p class="submit-photo">
+                <span class="text-wrapper"><a href="https://greenhell.fandom.com/wiki/Story">Submit Photo Evidence </span></a> <span class="text-wrapper-6">here</span>
+              </p>
+              <div class="frame-3">
+                <div class="frame-4">
+                  <img class="img-2" src="HUD_sanity_icon.webp" />
+                  <img class="img-2" src="Sleep_icon_V.webp" />
+                </div>
+                <img class="img-2" src="img/vomit-icon-h-1.png" />
+              </div>
+              <div class="frame-5">
+                <div class="frame-6">
+                  <img class="inspection-icon-v" src="img/inspection-icon-v-1.png" />
+                  <div class="text-wrapper-7">info@wherewifeat.com</div>
+                </div>
+                <div class="frame-7">
+                  <div class="text-wrapper-7">privacy cringe</div>
+                  <div class="text-wrapper-7">terms of wife having</div>
+                </div>
+              </div>
+              <div class="frame-8"></div>
+              <p class="help-me-help-me-help">
+                HELP ME HELP ME HELP ME HELP ME HELP ME<br />HELP ME HELP ME HELP ME HELP ME HELP ME<br />HELP ME HELP
+                ME HELP ME HELP ME HELP ME<br />HELP ME HELP ME HELP ME HELP ME HELP ME<br />HELP ME HELP ME HELP ME
+                HELP ME HELP ME<br />HELP ME HELP ME HELP ME HELP ME HELP ME
+              </p>
+            </div>
+            <div class="she-s-gone-shes-gone-wrapper">
+              <p class="she-s-gone-shes-gone">
+                SHE’S GONE SHES GONE SHES GONE SHES GONE<br />SHE’S GONE SHES GONE SHES GONE SHES GONE<br />SHE’S GONE
+                SHES GONE SHES GONE SHES GONE<br />SHE’S GONE SHES GONE SHES GONE SHES GONE<br />SHE’S GONE SHES GONE
+                SHES GONE SHES GONE<br />SHE’S GONE SHES GONE SHES GONE SHES GONE
+              </p>
+            </div>
+          </div>
+          <div class="help-me-help-me-help-wrapper">
+            <p class="p">
+              HELP ME HELP ME HELP ME HELP ME HELP ME<br />HELP ME HELP ME HELP ME HELP ME HELP ME<br />HELP ME HELP ME
+              HELP ME HELP ME HELP ME<br />HELP ME HELP ME HELP ME HELP ME HELP ME<br />
+            </p>
+          </div>
+        </div>
+        <div class="more-photos-wrapper"><div class="more-photos">MORE PHOTOS</div></div>
+        <div class="h-e-s-h-e-r-e-wrapper"><div class="h-e-s-h-e-r-e">Ḫ̴̢̫͚̫͚̞̟͕̥̔̈́̑͌͑͆̑̄̊̈̚͠Ë̷̼̳͓́̇̄̏Ś̸̨̡̲̭͖̲̦̮̲̙͕̮̹̈́́̉̃͐͝ ̴̢͌̐̀̂̌̈̈͂̆̓̀͋̈́̈́̊̕Ι̡̤͕̗͈̹̠͇̳H̵̢̡̛̛̛͙͕̗͙̦͑̔̀̍͛̈́͑́̿͂̎̔͘͠Ę̴̪͎͇͕̰̝̯̪̺̜̝͋̋̓R̷̨̝̱͕̈́̈̉̔̓͐̐́̃̀͂̇̕̕E̴̟̝͎͉͇̤̟͔͙̙̞̬̦̟̳͗Ι̜̠</div></div>
+      </div>
+    </div>
+  </body>
+</html>

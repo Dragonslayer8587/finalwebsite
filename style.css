@@ -419,8 +419,8 @@
 
   .wireframe .frame-8 {
     position: relative;
-    width: 498px;
-    height: 738px;
+    width: 450px;
+    height: 250px;
     top: 0;
     left: 762px;
     background-image: url(.cgna750n1tf21-1.png);
@@ -577,7 +577,7 @@
     object-fit: cover;
   }
   a:link {
-    color: red;
+    color: white;
     background-color: transparent;
     text-decoration: none;
   }

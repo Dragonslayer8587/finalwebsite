@@ -601,8 +601,9 @@
   }
 .wireframe .cross{
   position:absolute;
-  width: 499px;
-  height: 679px;
+  width: 544;
+  height: 672;
   top: 0;
   left: 528;
 }
+

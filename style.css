@@ -600,14 +600,28 @@
     text-decoration: underline;
   }
   .image {
-    width: 1080;
-    height: 1440;
+    width: 1027px;
+    height: 1122px;
   }
-.image .awievqvik{
-  position: fixed;
-  width: 550px;
-  height: 444px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
+  
+  .image .IMG {
+    position: fixed;
+    width: 547px;
+    height: 719px;
+    top: 0;
+    left: 0;
+  }
+  .image {
+    width: 1080px;
+    height: 1440px;
+  }
+  
+  .image .awievqvik {
+    position: fixed;
+    width: 550px;
+    height: 444px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  

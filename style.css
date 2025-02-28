@@ -600,26 +600,27 @@
     text-decoration: underline;
   }
   .image {
-    width: 1027px;
-    height: 1122px;
+    width: 482px;
+    height: 656px;
   }
   
   .image .IMG {
     position: fixed;
-    width: 547px;
-    height: 719px;
+    width: 482px;
+    height: 656px;
     top: 0;
     left: 0;
+    object-fit: cover;
   }
   .image {
-    width: 1080px;
-    height: 1440px;
+    width: 425px;
+    height: 398px;
   }
   
   .image .awievqvik {
     position: fixed;
-    width: 550px;
-    height: 444px;
+    width: 425px;
+    height: 398px;
     top: 0;
     left: 0;
     object-fit: cover;
